@@ -12,7 +12,7 @@
 - Deploying our app to production
 - Create Sign Up user Account in Firebase
 - Implement Sign In user API
-- Created Redux Store with userSlice 
+- Created Redux Store with userSlice
 - Implemented Sign Out
 - Update Profile
 - Fetch from TMDB Movies
@@ -23,7 +23,7 @@
 - Register TMDB API && Create an app && get access token
 - Get Data from TMDB now playing movies list API
 - Custom Hook now Playing Movies
-- Create movieSlice 
+- Create movieSlice
 - Update store with movies Data
 - Planning for MainContainer && Secondary Container
 - Fetch data for tailer video
@@ -31,10 +31,12 @@
 - Embedded the Youtube Video and make it autoplay and mute
 - Tailwind Classes to make MainContainer look awsome
 - Build Secondary Component
-
-
-
-
+- Build Movie List
+- Build Movies Card
+- TMDB Image CDN URL
+- Made the Browse page amazing with Tailwind css
+- usePopularMovies custom hooks
+- useTopRatedMovies && useUpcomingMovies custom hooks
 
 # Features
 
