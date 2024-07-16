@@ -50,7 +50,7 @@
 
 - App.css File: @tailwind base; @tailwind components; @tailwind utilities;
 
-# Namaste-Netflix-GPT :
+# Namaste-MovieMind-GPT :
 
 Below Implemented point
 
