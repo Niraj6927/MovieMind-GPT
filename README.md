@@ -39,8 +39,15 @@
 - useTopRatedMovies && useUpcomingMovies custom hooks
 - GPT Search feature
 - Create GPT Search Bar
-- Multi-Lang feature in our App
-- create .env to secure the API key
+- Get Open AI API key
+- Gpt Search API call
+- fetched GptMoviesSuggestions from TMDB
+- Create gptSlice added data
+- Reused movie List component to make movie suggestion container
+- Memoization (Minimize the API calls)
+- Added .env file
+- Added .env file to gitignore
+- Made our site responisve
 
 # Tailwind setup
 
