@@ -11,9 +11,7 @@ export const GPT_BG_URL =
 
 // ========================== ALL API ===================================
 
-
-
-export const OPENAI_API_KEY=process.env.REACT_APP_GPT_OPENAI_KEY;
+export const OPENAI_API_KEY = process.env.REACT_APP_GPT_OPENAI_KEY;
 
 export const API_OPTIONS = {
   method: "GET",
