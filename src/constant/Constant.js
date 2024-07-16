@@ -10,12 +10,17 @@ export const GPT_BG_URL =
   "https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_small.jpg";
 
 // ========================== ALL API ===================================
+
+export const OPENAI_API_KEY =
+  "sk-None-IYDMtj4OWaCzEutB4wqNT3BlbkFJQGwOrOgZ2tRRcJ8xukQO";
+
+//export const OPENAI_API_KEY=process.env.REACT_APP_GPT_OPENAI_KEY;
+
 export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMjQ2NDYyMjRiNjhlNDgzZDkyZDAxYTc5ODU2NDUzZSIsIm5iZiI6MTcyMDgxNjA3NS4zNzM2NTEsInN1YiI6IjY2OTE5MDhmYjFkNjgyOTk5NmM0M2MxZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.TCGjaq0pwTUvQd-SIxKQ7Zn20USQTHXGbuST3VdJqzE",
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_APIKEY,
   },
 };
 

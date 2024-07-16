@@ -2,6 +2,7 @@ import React from "react";
 import { MOVIE_CARD_IMG_URL } from "../constant/Constant";
 
 const MovieCard = ({ posterPath }) => {
+  if (!posterPath) return null;
   return (
     <div className="w-52 pr-4">
       <img
